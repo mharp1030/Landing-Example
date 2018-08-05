@@ -1,0 +1,101 @@
+body { 
+	margin: 0 auto; 
+	text-align: center;
+} 
+h1 { 
+	text-align: center; 
+} 
+.header, .classes { 
+	width: 100%;
+	margin: 0 auto; 
+	text-align: center; 
+	background-color: #fcfcfc; 
+} 
+.card { 
+	text-align: left; 
+	box-shadow: 0 4px 8px 0 rgba(0,39,76,0.9);
+    transition: 0.3s; 
+    width: 20em; 
+    border-radius: 2%; 
+    display: inline-block;
+    vertical-align: top;    
+	background-color: #FFF;
+	margin-top: 2%;
+	margin-bottom: 2%;
+} 
+.img { 
+	width: 100%;
+	border-radius: 2% 2% 0 0; 
+} 
+.info { 
+	padding: 2px 16px; 
+} 
+.container {
+	margin: 0 auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 1.2%;
+	margin-bottom: 2%;
+}
+p {
+	padding: 1%;
+	margin: 1%;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+.tools, .about, .research, .companies, .stuff, .class { 
+	margin: 5%; 
+	padding-left: 16px; 
+	padding-right: 16px; 
+	padding-bottom: 2px; 
+	padding-top: 10px; 
+	text-align: left; 
+	background-color: #FFF; 
+	width: 18em; 
+	box-shadow: 0 4px 8px 0 rgba(0,39,76,0.9); 
+	border-radius: 2%; 
+}
+@media (max-width: 800px) {
+	.tools, .about, .research, .companies, .stuff, .class {
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
+.classes { 
+	text-align: center;
+}
+.class {
+	display: inline-block;
+	vertical-align: top;
+	margin: 4px;
+	height: 200px;
+	overflow: hidden;
+}
+.work { 
+	text-align: center; 
+	background-color: #3d3d3d;
+}
+.research, .companies, .stuff { 
+	box-shadow: 0 4px 8px 0 rgba(255,203,5,.7); 
+	text-align: left; 
+	margin: 1em; 
+	display: inline-block; 
+}
+.stuff  
+{ 
+	width: 85%; 
+	border-radius: .5em; 
+	font-size: .9em; 
+}
+.footer > p {
+	text-align: right;
+	font-size: .88em;
+	margin: 0;
+	margin-right: 5%;
+	padding: .5em;
+}
